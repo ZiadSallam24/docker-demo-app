@@ -10,7 +10,7 @@ YouTube Video: https://www.youtube.com/watch?v=3c-iBn73dDE&t=9626s
 # To build a docker image from the application
 docker build -t myapp:2.0 . 
 # start the app, mongodb, and mongo-express with 
-docker-compose -f mongo.yaml up
+docker-compose -f mongo.yml up
 
 # You can access the mongo-express under localhost:8081 from your browser
 # You can access the nodejs application under localhost:3000 from your browser

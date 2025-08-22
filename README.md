@@ -15,7 +15,7 @@ I also practiced pushing it to GitHub and connecting it with Azure Container Reg
 ```bash
 # To build a docker image from the application
 docker build -t myapp:2.0 . 
-# start the app, mongodb, and mongo-express with 
+# start the app, mongodb, and mongo-express with (Add your registry to the image first)
 docker-compose -f mongo.yml up
 
 # You can access the mongo-express under localhost:8081 from your browser

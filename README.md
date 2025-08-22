@@ -5,6 +5,12 @@ Originally from Nana Janashia
 Original gitlab repo: https://gitlab.com/nanuchi/techworld-js-docker-demo-app 
 YouTube Video: https://www.youtube.com/watch?v=3c-iBn73dDE&t=9626s
 
+## Note
+
+This project was done as part of my learning journey with Docker and GitHub.  
+I followed Nana Janashia’s tutorial and reproduced the project locally and in Docker.  
+I also practiced pushing it to GitHub and connecting it with Azure Container Registry.  
+
 #### Commands
 ```bash
 # To build a docker image from the application
